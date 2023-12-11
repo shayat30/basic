@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>window-object</title>
+</head>
+<body>
+    <script>
+        var temp = "this is tem";
+        function abc(){
+            window.y = "window 'y' obejct"
+            window.value = "window-obejct"
+            document.write(window.value);
+            alert( window.temp);
+        }
+        abc();
+        xyz();
+        document.write("<br>")
+        document.write(window.y);
+
+        document.write("<br>")
+        document.write(window.value)
+
+        function xyz(){
+            document.write("<br>")
+        document.write(window.value)
+        }
+        
+    </script>
+</body>
+</html>
